@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminLogin.aspx" />
+    <Content Include="AuthorManagement.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\datatable\css\jquery.dataTables.min.css" />
     <Content Include="bootstrap\datatable\js\jquery.dataTables.min.js" />
@@ -1748,8 +1749,10 @@
     <Content Include="imgs\book.png" />
     <Content Include="imgs\Books-2-icon.png" />
     <Content Include="imgs\photo.jpg" />
+    <Content Include="PublisherManagement.aspx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="Signup.aspx" />
+    <Content Include="UserProfile.aspx" />
     <Content Include="Viewbooks.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -1762,12 +1765,26 @@
     <Compile Include="AdminLogin.aspx.designer.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AuthorManagement.aspx.cs">
+      <DependentUpon>AuthorManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthorManagement.aspx.designer.cs">
+      <DependentUpon>AuthorManagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="homepage.aspx.designer.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublisherManagement.aspx.cs">
+      <DependentUpon>PublisherManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublisherManagement.aspx.designer.cs">
+      <DependentUpon>PublisherManagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserLogin.aspx.cs">
       <DependentUpon>UserLogin.aspx</DependentUpon>
@@ -1790,6 +1807,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Viewbooks.aspx.cs">
       <DependentUpon>Viewbooks.aspx</DependentUpon>
